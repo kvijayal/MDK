@@ -7,7 +7,7 @@
     "name": "SAP SE"
   },
   "homepage": "https://help.sap.com/docs/MDK",
-  "repository": "https://github.com/your-org/mdk-ai-skills",
+  "repository": "https://github.com/kvijayal/MDK.git",
   "license": "Apache-2.0",
   "keywords": ["sap", "mdk", "mobile", "mobile-development-kit", "odata", "offline", "btp"],
   "category": "development",
