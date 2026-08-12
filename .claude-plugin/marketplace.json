@@ -1,46 +1,25 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "mdk",
-  "displayName": "SAP MDK Developer",
-  "version": "0.4.0",
-  "description": "SAP Mobile Development Kit (MDK) plugin for AI coding agents.",
+  "description": "SAP Mobile Development Kit (MDK) plugin for AI coding agents",
+  "owner": {
+    "name": "kvijayal",
+    "email": ""
+  },
   "plugins": [
     {
       "name": "mdk",
-      "displayName": "SAP MDK Developer",
-      "version": "0.4.0",
-      "description": "SAP Mobile Development Kit (MDK) plugin for coding agents. Scaffolds MDK projects and entities, generates pages/actions/rules/i18n, validates and deploys to SAP Mobile Services, provides component schemas, rule library, migration guide, and best practices.",
-      "path": ".",
-      "skills": [
-        "skills/mdk-create",
-        "skills/mdk-gen",
-        "skills/mdk-manage",
-        "skills/mdk-docs",
-        "skills/mdk-rules-library",
-        "skills/mdk-migration",
-        "skills/mdk-best-practices"
-      ],
-      "agents": [
-        "agents/mdk-developer.md"
-      ],
-      "commands": [
-        "commands/new-mdk-project.md",
-        "commands/new-entity.md",
-        "commands/new-page.md",
-        "commands/new-action.md",
-        "commands/new-rule.md",
-        "commands/validate-mdk.md",
-        "commands/build-mdk.md",
-        "commands/deploy-mdk.md",
-        "commands/migrate-mdk.md",
-        "commands/check-i18n.md",
-        "commands/mdk-docs.md",
-        "commands/review-mdk-project.md",
-        "commands/status.md"
-      ],
-      "keywords": ["sap", "mdk", "mobile", "mobile-development-kit", "odata", "offline", "btp", "fiori"],
-      "license": "Apache-2.0",
-      "homepage": "https://help.sap.com/docs/MDK",
-      "repository": "https://github.com/kvijayal/MDK"
+      "description": "SAP MDK plugin for coding agents. Scaffolds MDK projects and entities, generates pages/actions/rules/i18n, validates and deploys to SAP Mobile Services, provides component schemas, rule library, migration guide, and best practices.",
+      "author": {
+        "name": "kvijayal"
+      },
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kvijayal/MDK.git",
+        "ref": "main"
+      },
+      "homepage": "https://help.sap.com/docs/MDK"
     }
   ]
 }
