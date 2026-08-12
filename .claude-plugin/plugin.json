@@ -1,0 +1,23 @@
+{
+  "name": "mdk",
+  "displayName": "SAP MDK Developer",
+  "version": "0.4.0",
+  "description": "SAP Mobile Development Kit (MDK) plugin for coding agents. Scaffolds MDK projects and entities, generates pages/actions/rules/i18n, validates and deploys to SAP Mobile Services, provides component schemas and best practices for MDK metadata-driven mobile app development.",
+  "author": {
+    "name": "SAP SE"
+  },
+  "homepage": "https://help.sap.com/docs/MDK",
+  "repository": "https://github.com/your-org/mdk-ai-skills",
+  "license": "Apache-2.0",
+  "keywords": ["sap", "mdk", "mobile", "mobile-development-kit", "odata", "offline", "btp"],
+  "category": "development",
+  "skills": [
+    "mdk-create",
+    "mdk-gen",
+    "mdk-manage",
+    "mdk-docs",
+    "mdk-rules-library",
+    "mdk-migration",
+    "mdk-best-practices"
+  ]
+}
