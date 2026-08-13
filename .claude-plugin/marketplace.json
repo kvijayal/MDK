@@ -1,25 +1,28 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "mdk",
-  "description": "SAP Mobile Development Kit (MDK) plugin for AI coding agents",
+  "description": "SAP MDK plugin for AI coding agents",
   "owner": {
-    "name": "kvijayal",
-    "email": ""
+    "name": "kvijayal"
   },
   "plugins": [
     {
       "name": "mdk",
+      "displayName": "SAP MDK Developer",
       "description": "SAP MDK plugin for coding agents. Scaffolds MDK projects and entities, generates pages/actions/rules/i18n, validates and deploys to SAP Mobile Services, provides component schemas, rule library, migration guide, and best practices.",
+      "version": "0.4.0",
       "author": {
         "name": "kvijayal"
       },
       "category": "development",
+      "license": "Apache-2.0",
+      "homepage": "https://help.sap.com/docs/MDK",
+      "keywords": ["sap", "mdk", "mobile", "odata", "offline", "btp"],
       "source": {
-        "source": "url",
-        "url": "https://github.com/kvijayal/MDK.git",
+        "source": "github",
+        "repo": "kvijayal/MDK",
         "ref": "main"
-      },
-      "homepage": "https://help.sap.com/docs/MDK"
+      }
     }
   ]
 }
